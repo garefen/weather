@@ -1,0 +1,26 @@
+#information {
+  background: -webkit-gradient(linear, left bottom, right top, from(#6948EB), to(#74C4E8));
+  background: linear-gradient(to top right, #6948EB, #74C4E8);
+  padding: 40px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#information span {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+#information span a {
+  text-decoration: none;
+  color: #fffc98;
+}
+
+#information span a:hover {
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

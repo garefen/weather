@@ -1,0 +1,13 @@
+header {
+  padding: 60px 0;
+  color: white;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4b25b4), to(rgba(169, 56, 245, 0.568)));
+  background: linear-gradient(#4b25b4, rgba(169, 56, 245, 0.568));
+}
+
+header h1 {
+  letter-spacing: 1.5px;
+  font-size: 38px;
+}
+/*# sourceMappingURL=index.css.map */

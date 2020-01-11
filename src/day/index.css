@@ -1,0 +1,57 @@
+#day {
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: .1s;
+  transition: .1s;
+  cursor: pointer;
+  position: relative;
+}
+
+#day img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  pointer-events: none;
+  margin: 20px auto;
+}
+
+#day > span {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#day > span.backspan {
+  font-weight: 900;
+  font-size: 50px;
+  z-index: -1;
+  color: #6948EB;
+  opacity: .3;
+  position: absolute;
+  top: -10px;
+}
+
+#day:hover {
+  background: rgba(105, 72, 235, 0.2);
+}
+
+#day .temperature span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#day .temperature .max {
+  margin: 0 10px;
+}
+
+#day .temperature .min {
+  opacity: .5;
+  margin: 0 10px;
+}
+/*# sourceMappingURL=index.css.map */
